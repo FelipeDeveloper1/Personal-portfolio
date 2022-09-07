@@ -17,8 +17,8 @@
 
 .card-project {
     display: flex;
-    width: 325px;
-    height: 330px;
+    width: 350px;
+    height: 350px;
     background-color: #ECE4D7;
     border-radius: 50px;
     align-items: center;
@@ -63,11 +63,14 @@
 }
 
 footer {
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.content-footer {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
     height: 80px;
-    border: 1px solid black;
 }
 
 .credito {
