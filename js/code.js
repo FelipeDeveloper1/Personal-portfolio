@@ -21,8 +21,8 @@ definir = () => {
 }
 definir()
 
-const info = document.querySelectorAll('.info')
+const box = document.querySelectorAll('.box')
 
-for (let i = 1; i < info.length; i += 2) {
-    info[i].classList.add('right')
+for (let i = 1; i < box.length; i += 2) {
+    box[i].classList.add('right')
 }
