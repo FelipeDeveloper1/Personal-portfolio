@@ -1,12 +1,3 @@
-const navbar = document.querySelector('.box-navbar')
-const navlist = document.querySelector('.nav-list')
-const link = document.querySelector('.links')
-
-
-navbar.addEventListener('click', () => {
-    navlist.classList.toggle('active')
-})
-
 const ola = document.querySelector('.ola')
 
 const hora = new Date().toLocaleTimeString()
